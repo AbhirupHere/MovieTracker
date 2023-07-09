@@ -25,7 +25,7 @@ class App extends React.Component {
     this.props.dispatch(setShowFavourites(val));
   };
   render() {
-    const { movies, search } = this.props; // will return { movies: {}, search: []}
+    const { movies, search } = this.props;
     console.log('movies', movies);
     const { list, showFavourites = [], favourites = [] } = movies;
     const displayMovies = showFavourites ? favourites : list;
