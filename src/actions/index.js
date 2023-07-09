@@ -44,7 +44,10 @@ export function addMovieToList(movie) {
 
 export function handleMovieSearch(searchText) {
   return function (dispatch) {
-    const url = `http://www.omdbapi.com/?i=tt3896198&apikey=8661543f&t=${searchText}`;
+    // const url = `http://www.omdbapi.com/?i=tt3896198&apikey=8661543f&t=${searchText}`;
+    const proxyUrl = 'https://your-proxy-server-url.com'; // Replace with the URL of your proxy server
+    const apiUrl = `http://www.omdbapi.com/?i=tt3896198&apikey=8661543f&t=${searchText}`;
+    const url = `${proxyUrl}?url=${encodeURIComponent(apiUrl)}`;
     fetch(url)
       .then((response) => response.json())
       .then((movie) => {
