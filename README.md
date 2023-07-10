@@ -2,6 +2,14 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## MovieTracker: Your Personal Movie Collection Manager :
+• A dynamic ReactJS project that allows users to search and add movies from the OMDB API, track their watched
+movies, and manage favorites.<br/>
+• Features a user-friendly interface with detailed movie summaries, ratings, and the ability to mark movies as
+favorites or remove them.<br/>
+• Empowers users to curate their own movie collection, keeping track of watched movies and easily accessing their
+favorite films in a dedicated tab.<br/>
+
 ## Available Scripts
 
 In the project directory, you can run:
