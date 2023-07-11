@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/MovieTracker/static/css/main.3425ba1a.css",
-    "main.js": "/MovieTracker/static/js/main.4825437f.js",
+    "main.js": "/MovieTracker/static/js/main.db308623.js",
     "index.html": "/MovieTracker/index.html",
     "main.3425ba1a.css.map": "/MovieTracker/static/css/main.3425ba1a.css.map",
-    "main.4825437f.js.map": "/MovieTracker/static/js/main.4825437f.js.map"
+    "main.db308623.js.map": "/MovieTracker/static/js/main.db308623.js.map"
   },
   "entrypoints": [
     "static/css/main.3425ba1a.css",
-    "static/js/main.4825437f.js"
+    "static/js/main.db308623.js"
   ]
 }
